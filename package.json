@@ -1,0 +1,16 @@
+{
+  "name": "id",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "build": "bun build src/index.ts --outdir ./dist --format esm --sourcemap=external --minify",
+    "check": "bunx @biomejs/biome check --apply ./"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "5.4.5"
+  }
+}

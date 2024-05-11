@@ -1,7 +1,7 @@
 {
   "name": "@the-minimal/id",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Miroslav Vršecký <yamiteru@icloud.com>",
   "description": "Minimal, secure and collision-resistant random IDs in TypeScript",

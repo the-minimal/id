@@ -1,0 +1,18 @@
+export const BUFFER_SIZE = 128;
+
+export const COUNT_SIZE = 4;
+export const TIMESTAMP_SIZE = 8;
+export const SALT_SIZE = 52;
+export const FINGERPRINT_SIZE = 32;
+export const EXTERNAL_SIZE = 32;
+
+export const SALT_START = COUNT_SIZE + TIMESTAMP_SIZE;
+export const SALT_END = SALT_START + SALT_SIZE;
+
+export const FINGERPRINT_START = SALT_END;
+export const FINGERPRINT_END = FINGERPRINT_START + FINGERPRINT_SIZE;
+
+export const EXTERNAL_START = FINGERPRINT_END;
+export const EXTERNAL_END = EXTERNAL_START + EXTERNAL_SIZE;
+
+export const DEFAULT_LENGTH = 24;

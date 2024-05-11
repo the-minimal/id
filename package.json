@@ -67,7 +67,7 @@
     "vitest": "1.6.0"
   },
   "dependencies": {
-    "@the-minimal/fingerprint": "0.0.1"
+    "@the-minimal/fingerprint": "0.0.2"
   },
   "peerDependencies": {
     "typescript": "5.4.5"
